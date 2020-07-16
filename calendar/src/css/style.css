@@ -1,0 +1,51 @@
+#calendar {
+    border: 2px solid black;
+    margin-top: 20px;
+}
+
+#calendar th {
+    background-color: lightgray;
+}
+
+#calendar td {
+    height: 120px;
+    border: 1px solid lightslategray;
+    vertical-align: text-top;
+    text-align: left;
+    font-size: x-large;
+}
+
+.notCurrentCell {
+    color: lightgray;
+}
+
+.highlightCell {
+    background-color: lightyellow;
+}
+
+.highlightCellFromAnotherMonth {
+    background-color: rgb(251, 251, 246);
+}
+
+#prompt {
+    display: none;
+    padding: 70px;
+}
+
+#prompt h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#prompt .form-group {
+    margin: 50px;
+}
+
+#prompt button {
+    margin: 20px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+}

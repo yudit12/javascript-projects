@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>TaxCalculator.html</title>
+		<link href="TaxCalculator.css" rel="stylesheet" />	<!-- external css file (for page style) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
+		
+		<script src="TaxCalculator.js"></script>				<!-- external script file (for page logic) -->
+	</head>
+    <body>
+		<header>
+			<div id="img"><img src ="pic/tax.jpg"  width = "100px" height = "70px" /></div>
+			<h1> Tax Calculator </h1>
+		
+		</header>
+		<main>
+			<table class="inputArea">
+
+				<tr>
+					<td><b>Base Salary:</b></td>
+					<td><input  id="textBoxSumYear" type="text" placeholder="enter input..."/>
+					<input type="checkbox" id="myCheck"> 
+					<label for = "txtName"> For 12 Months</label></td>
+				</tr>
+				<tr>
+					<td> </td>
+					<td> </td>
+				</tr>
+				<tr class="month">
+					<td>January</td>
+					<td><input  class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>February</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>March</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month"> 
+					<td>April</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>May</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>June</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>July</td>
+					<td><input class="textBoxSumMonth" type="text"  placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>August</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>September</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>October</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>November</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr class="month">
+					<td>December</td>
+					<td><input class="textBoxSumMonth" type="text" placeholder="enter input..."/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				
+				</tr>
+				<tr>
+					<td><b>Bonus Points:</b></td>
+					<td><input type="text" id="Bonus" placeholder="enter input..."/></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				
+				</tr>
+				<tr>
+					<td></td>
+					<!-- <td><button id ="cmdOK">calculate</button></td> -->
+					<td><button id ="cmdOK" type="button" onclick><b>calculate</b></button></td>
+				
+				</tr>
+				
+			<div id="img2"><img src ="pic/person.jpg"  width = "300px" height = "200px" /></div>
+			
+			
+			</table>
+			<h3 id="output"></h3>
+			
+		</main>		
+			
+		
+	
+		
+    </body>
+</html> 

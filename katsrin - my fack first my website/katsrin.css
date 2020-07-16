@@ -1,0 +1,100 @@
+.header{
+	
+	
+	text-align: center;
+	font-size:30pt;
+	color:white; 
+	font-style: oblique;
+	background-image:url(pic/photo_kazerin.jpg) ;
+	border:1px solid black;
+	width: 100%;
+	
+}
+#logo{
+	float: right;
+	padding: 20px 30px 30px 20px;
+}
+
+.nav{
+	padding: 30px; 
+	text-align: center; 
+	font-style: oblique;
+	width:100%;
+
+
+}
+.main{
+	height:820px;
+	width:85%;
+	margin-left:10px; 
+	background-color:#FFE4E1;
+	 color: #000;
+	float: left;
+	 border:1px solid black;
+	 
+
+	 
+	
+}
+aside{
+	float: right;
+}
+	
+
+
+.a{
+	margin-right:5px;
+    padding:25px; 
+    text-align: center;
+	width: 100px; 
+	 float: right;
+	border-style: groove;
+	
+  
+}
+#ad{
+	height:300px;
+	margin-right:40px;
+	margin-top:10px;  
+	margin-left:5px; 
+	float: right;
+	width:10%;
+	display: block;
+	
+
+}
+#poto{
+	margin-top:5px; 
+	margin-left:5px;
+	margin-right: 5px; 
+}
+h2{
+	margin-right: 18px;
+	text-align: right;
+	font-style:bold;
+	font-style: oblique; 
+
+}
+p{
+	margin-left: 40px;
+	margin-right: 20px;
+	font-style: oblique;
+	text-align: justify 
+}
+
+.footer{
+
+	margin-top: 840px;
+	
+	
+
+}
+.footer p{
+	text-align: center;
+}
+a:hover {
+	background-color: rgb(233, 178, 210);
+	color: white;
+  }
+
+

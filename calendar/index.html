@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- LIBS -->
+    <script src='libs/jquery/jquery-3.3.1.min.js'></script>
+    <script src='libs/bootstrap/js/bootstrap.bundle.min.js'></script>
+    <script src='libs/bootstrap/js/bootstrap.min.js'></script>
+    <script src='libs/velocity/velocity.min.js'></script>
+    <link rel='stylesheet' href='libs/bootstrap/css/bootstrap-grid.min.css'>
+    <link rel='stylesheet' href='libs/bootstrap/css/bootstrap-reboot.min.css'>
+    <link rel='stylesheet' href='libs/bootstrap/css/bootstrap.min.css'>
+    <!-- OWN_FILES -->
+    <script src='src/js/Calendar.js'></script>
+    <script src='src/js/Prompt.js'></script>
+    <script src='src/js/script.js'></script>
+    <link rel='stylesheet' href='src/css/style.css'>
+</head>
+
+<body>
+    <div class='container-fluid'>
+        <div class='row'>
+            <div class='col text-center'>
+                <div class='btn-group'>
+                    <button id='back' class='btn btn-secondary'> < </button>
+                    <button id='today' class='btn btn-primary'> Today </button>
+                    <button id='forward' class='btn btn-secondary'> > </button>
+                </div>
+            </div>
+            <div class='col'>
+                <h1>Month Goes Here</h1>
+            </div>
+        </div>
+        <div class='row'>
+            <div class='col'>
+                <table class='table' id='calendar'>
+                    <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id='prompt' class='modal'>
+            <div class='modal-dialog modal-lg'>
+                <div class="modal-content">
+                    <h2>Header Goes Here</h2>
+                    <form>
+                        <div class="form-group">
+                            <label>Begin Time</label>
+                            <input class="form-control" placeholder="Begin Time">
+                        </div>
+                        <div class="form-group">
+                            <label>End Time</label>
+                            <input class="form-control" placeholder="End Time">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <input class="form-control" placeholder="Description">
+                        </div>
+                        <button type="button" class="btn btn-primary">Accept</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
